@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="This is an app that generates random quotes">
     <title>Random Quote Machine</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />  
+   <script 
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   </head>
   <body>
+    <h1>Random Quote Machine</h1>
     <section>
       <div id="quote-box">
-        <p id="text"></p>
-        <p id="author"></p>
-        <button id="new-quote"></button>
-        <a href="https://twitter.com/" id="tweet-quote">Tweet this quote!</a>
-
+        <p id="text">"Chaos is inherent in all compounded things. Strive on with diligence."</p>
+        <p id="author">-Buddha</p>
       </div>
     </section>
+      <div class="buttons">
+        <button>
+          <a href="#" target="_blank" id="tweet-quote">Tweet</a>
+        </button>
+        <button>
+        <a class="btn-btn" id="new-quote">New Quote</a>
+        </button>
+      </div>
     <footer>By Diana</footer>
     <script src="script.js"></script>
   </body>
